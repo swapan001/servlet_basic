@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>swap_n</servlet-name>
+    <servlet-class>controller.MyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>swap_n</servlet-name>
+    <url-pattern>/my-servlet143</url-pattern>
+  </servlet-mapping>
+
 </web-app>
